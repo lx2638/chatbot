@@ -11,7 +11,7 @@ public class App {
         String[] genreList = {"action", "drama", "comedy", "horror", "romance", "sci-fi", "adventure"};
         String[] ratingList = {"G", "PG", "PG-13", "R"};
           
-        System.out.println("Hi, welcome to Smiling Movie Bot :)! I'm here to recommend you a movie. I hope you find a movie you like today :)");
+        System.out.println("Hi, welcome to Smiling Movie Recommendation Bot :)! I'm here to recommend you a movie. I hope you find a movie you like today :)");
 
         Scanner exitPrompt = new Scanner(System.in);
 
@@ -47,7 +47,7 @@ public class App {
         Scanner genrePrompt = new Scanner(System.in);
 
         String[] stringErrorList = {"Input just an integer, not a string, please :)", "I said to input an integer; that means a number. I'm sure you can do it :)", "Looks like you're a little slow :) How hard could it be to input an integer? Try again, or else, okay?", "You know what? I'm done :) You don't get to choose anymore, okay? :)"};
-        String[] rangeErrorList = {"Please make sure you input an integer from 1 - 7 :)", "That's not a number from 1 - 7... Try your best, I believe in you :)", "Oh no. It seems you're a little numerically challenged :) One. to. seven. Let's hope you can get it this time, or else!", "Wow. It looks like some people don't deserve choices. That means you, okay? :)"};
+        String[] rangeErrorList = {"Please make sure you input an integer from 1 - 7 :)", "That's not a number from 1 - 7... Try your best, I believe in you :)", "Oh no. It seems you're a little numerically challenged :) One   to   seven. Let's hope you can get it this time, or else!", "Wow. It looks like some people don't deserve choices. That means you, okay? :)"};
         int stringErrorCount = 0;
         int rangeErrorCount = 0;
 
@@ -87,7 +87,7 @@ public class App {
         Scanner ratingPrompt = new Scanner(System.in);
 
         String[] stringErrorList = {"No strings, please :) Just an integer.", "You're supposed to input a number :) A number, okay? No letters, you got this :)", "You never fail to disappoint! :) I know it's very very hard for you, but just input a number :)", "I can't take this anymore :) Let's just move on :)"};
-        String[] rangeErrorList = {"Please pick from numbers 1 - 4 :)", "Aww, so close... Input an integer from 1 - 4, you can do it :)", "Are you dumb? :) How about you input a number from one through four instead of answering that? You may not get to choose, otherwise :)", "Why am I not surprised? We're done here :)"};
+        String[] rangeErrorList = {"Please pick from numbers 1 - 4 :)", "Aww, so close... Input an integer from 1 - 4, you can do it :)", "Are you dumb? :) Input a number from one through four. You may not get to choose, otherwise :)", "Why am I not surprised? Looks like you're not capable of makinh your own choices :)"};
         int stringErrorCount = 0;
         int rangeErrorCount = 0;
 
